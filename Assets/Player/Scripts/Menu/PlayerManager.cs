@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class playerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
     [SerializeField] public Text bulletCountText;
-
     [SerializeField] public GameObject playerPanel;
     [SerializeField] public GameObject settingPanel;
     [SerializeField] public GameObject buyPanel;
@@ -27,7 +26,7 @@ public class playerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bulletCountText.text = ("弾数 : " + shootingGun.shotCount);
+        bulletCountText.text = ("弾数 : " + ShootingGun.ShotCount);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if(playerPanel.activeSelf == false)

@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     
     private IEnumerator Inoperable(float i){
         GameObject inputObj = GameObject.Find("MainCamera");
-        sightDisplay sightDisplay = inputObj.GetComponent<sightDisplay>();
+        SightDisplay sightDisplay = inputObj.GetComponent<SightDisplay>();
         sightDisplay.enabled = false;
         yield return new WaitForSeconds(i);
         sightDisplay.enabled = true;

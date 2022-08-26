@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class sightDisplay : MonoBehaviour{
+public class SightDisplay : MonoBehaviour{
     [SerializeField] Image sight;
     float _rayLength = 20000;
     RaycastHit hit;

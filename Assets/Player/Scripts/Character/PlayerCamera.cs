@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class playerCamera : MonoBehaviour
+public class PlayerCamera : MonoBehaviour
 {
     public Transform yAxis;
     public Transform xAxis;

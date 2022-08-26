@@ -9150,6 +9150,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8075563648130342924, guid: a608dbe04342b184c9163b52e43f1a8f,
+        type: 3}
+      propertyPath: _shotSpeed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075563648130342924, guid: a608dbe04342b184c9163b52e43f1a8f,
+        type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 7889026695114181009, guid: 996805924abae614f9ea4a9d9a590176,
+        type: 3}
     - target: {fileID: 8075563649362090025, guid: a608dbe04342b184c9163b52e43f1a8f,
         type: 3}
       propertyPath: sight
